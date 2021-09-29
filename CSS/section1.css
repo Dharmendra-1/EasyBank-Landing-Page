@@ -1,0 +1,61 @@
+.firstSectionContainer {
+  display: flex;
+  background-color: #fafafa;
+}
+
+#bgImg {
+  position: absolute;
+  margin-top: -135px;
+  width: 920px;
+  height: 690px;
+  margin-left: 2vw;
+  z-index: 4;
+}
+
+#bgMock {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 63vw;
+  height: 680px;
+  width: 550px;
+  z-index: 4;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6em;
+}
+
+.showcase h1 {
+  font-size: 2em;
+  opacity: 0.7;
+  padding-bottom: 50px;
+}
+
+.showcase p {
+  opacity: 0.7;
+  font-family: 'Public Sans', sans-serif;
+  padding-bottom: 50px;
+}
+
+.inviteButton {
+  margin-right: 130px;
+  font-family: 'Public Sans';
+  font-weight: 400;
+  font-size: 0.8em;
+  color: #ffffff;
+  height: 45px;
+  width: 120px;
+  border-radius: 1.2em;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+}
+
+.inviteButton:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  opacity: 65%;
+}
