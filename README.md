@@ -1,3 +1,6 @@
+## Project Link :- https://ecstatic-gates-7e5851.netlify.app/
+
+
 # File Transfer pricing component
 
 ![Design preview for the File Transfer pricing component coding challenge](./design/desktop-preview.jpg)
