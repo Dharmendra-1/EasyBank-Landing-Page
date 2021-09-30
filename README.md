@@ -1,4 +1,4 @@
-## Project Link :- https://ecstatic-gates-7e5851.netlify.app/
+## Project Link :- https://easybank123-page11.netlify.app/
 
 
 # File Transfer pricing component
