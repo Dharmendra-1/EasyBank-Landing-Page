@@ -21,7 +21,7 @@ p {
   display: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1024px) {
+@media screen and (max-width: 480px) {
   .menu {
     display: none;
     position: fixed;
@@ -49,8 +49,30 @@ p {
   }
 }
 
-@media screen and (max-width: 480px) {
-}
-
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  .menu {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 2.5%;
+    box-shadow: 20px 60px 150px 45px #000000e1;
+    justify-content: center;
+    height: 240px;
+    z-index: 8;
+    width: 95%;
+    background-color: #fffdfd;
+  }
+
+  #mobile-links li {
+    margin-top: 12px;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+  }
+
+  #mobile-links li a:hover {
+    border: none;
+  }
 }
