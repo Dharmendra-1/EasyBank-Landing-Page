@@ -1,14 +1,14 @@
 .secondSectionContainer {
   display: flex;
   flex-direction: column;
-  padding: 3.5em;
+  padding: 6em;
   z-index: 1;
 }
 
 .secondSectionContainer div h1 {
   font-size: 2em;
   opacity: 0.7;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 .bankProduct {
