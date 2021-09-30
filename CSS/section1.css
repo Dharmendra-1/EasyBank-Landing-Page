@@ -15,7 +15,7 @@
 #bgMock {
   position: absolute;
   margin-top: -40px;
-  margin-left: 63vw;
+  margin-left: 18vw;
   height: 680px;
   width: 550px;
   z-index: 4;
@@ -36,7 +36,6 @@
 
 .showcase p {
   opacity: 0.7;
-  font-family: 'Public Sans', sans-serif;
   padding-bottom: 50px;
 }
 
@@ -47,8 +46,8 @@
   font-size: 0.8em;
   color: #ffffff;
   height: 45px;
-  width: 120px;
-  border-radius: 1.2em;
+  width: 170px;
+  border-radius: 30px;
   border: none;
   outline: none;
   background-image: linear-gradient(to right, #31d35c, #2bb7da);
@@ -58,4 +57,114 @@
   transition: 0.3s;
   cursor: pointer;
   opacity: 65%;
+}
+
+#bg-mock-mobile {
+  display: none;
+}
+
+#bg-img-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 64px) and (max-width: 480px) {
+  .firstSectionContainer {
+    flex-direction: column;
+  }
+
+  #bgImg,
+  #bgMock {
+    display: none;
+  }
+
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 6em;
+    align-items: center;
+  }
+
+  .showcase h1 {
+    font-size: 1em;
+    opacity: 0.7;
+  }
+
+  .showcase p {
+    font-size: 0.7em;
+  }
+
+  .showcase .inviteButton {
+    height: 40px;
+    width: 150px;
+    font-size: 0.7em;
+    border-radius: 30px;
+    margin-left: 130px;
+  }
+
+  .mobileTop {
+    background-color: #fafafa;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  #bg-mock-mobile {
+    width: 360px;
+    height: 800px;
+    display: inline-block;
+    background-image: url('../images/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -210px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .firstSectionContainer {
+    flex-direction: column;
+  }
+
+  #bgImg,
+  #bgMock {
+    display: none;
+  }
+
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 6em;
+    align-items: center;
+  }
+
+  .showcase h1 {
+    font-size: 3.2em;
+    opacity: 0.7;
+  }
+
+  .showcase p {
+    font-size: 1.2em;
+  }
+
+  .showcase .inviteButton {
+    height: 60px;
+    width: 200px;
+    font-size: 1em;
+    border-radius: 30px;
+  }
+
+  .mobileTop {
+    background-color: #fafafa;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  #bg-mock-mobile {
+    position: relative;
+    display: inline-block;
+    background-image: url('../images/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -210px;
+  }
 }
